@@ -26,11 +26,11 @@ $().ready(function () {
       name: {
         required: "Por favor, insira o seu nome.",
         minlength: jQuery.validator.format(
-          "Por favor, insira seu nome completo!"
+          "Por favor, insira seu primeiro nome completo!"
         ),
       },
       tel: "Por favor, insira o seu telefone para contato.",
-      email: "Por favor, insira o seu -mail no formato 'nome@domínio.com'.",
+      email: "Por favor, insira o seu e-mail no formato 'nome@domínio.com'.",
       mensagem: "Por favor, deixe sua mensagem aqui.",
     },
 
